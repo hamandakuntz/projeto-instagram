@@ -143,14 +143,14 @@ img {
 .conteudo .posts .post {     
     width: 100%;
     /* height: 749px; */
-    background: #FFFFFF;
-    
-    border: 1px solid #DBDBDB;   
+    background: #FFFFFF;    
+    border: 1px solid #DBDBDB;
+    margin-bottom: 60px;  
 }
 
 .conteudo .posts .post img {
     width: 100%;
-    height: 614px;
+    height: auto;
     margin: 0 auto;       
 }
 
@@ -185,8 +185,9 @@ img {
 }
 
 .conteudo .posts .post ion-icon {
+    padding-top: px;
     margin: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 ion-icon:hover{   
@@ -194,7 +195,8 @@ ion-icon:hover{
 
 
 .conteudo .posts .post ion-icon:nth-child(6) {
-    margin-left: 475px;    
+   float:right;
+   margin-right:10px;   
 }
 
 .conteudo .posts .post .imglike {
@@ -297,7 +299,7 @@ ion-icon:hover{
 .sidebar .sugestoes span{
     color: black;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     color: #262626;    
 }
 
@@ -309,32 +311,34 @@ ion-icon:hover{
     padding-top: 10px;
 }
 
-
-.sidebar .sugestoes-lista .seguevc {
-    font-size: 12px;
-    font-weight: 600;
-    color: #262626;       
-    
-    height: 50px;
-    
-    
+.sidebar .sugestoes-lista .usuario {
+    background: #FAFAFA;        
+    padding-top: 10px;
 }
+
+.sidebar .sugestoes-lista .usuario .nome {
+    font-size: 14px;  
+    color: #262626;   
+    padding-left: 10px;
+    font-weight: 500;  
+}
+
+.sidebar .sugestoes-lista .usuario .seguevc {
+    font-size: 12px;       
+    color: #8E8E8E;
+    padding-left: 10px;
+    padding-top: 4px;    
+}
+
 
 .sidebar .sugestoes-lista .seguir {
     background: #FAFAFA;    
-    padding-left: 150px;   
+    margin-left: auto;   
     padding-top: 10px;
     color: #139EF2;    
     font-weight: 500;   
 }
 
-.sidebar .sugestoes-lista .seguir2 {
-    background: #FAFAFA;    
-    padding-left: 170px;   
-    padding-top: 10px;
-    color: #139EF2;    
-    font-weight: 500;   
-}
 
 
 .sidebar .sugestoes-lista img {
@@ -373,7 +377,7 @@ ion-icon:hover{
     color: #C7C7C7;
     font-size: 11px;
     margin-left: 15px;
-    margin-top: 20px;    
+    margin-top: 40px;    
     width: 100%;    
 }
 
@@ -381,7 +385,7 @@ ion-icon:hover{
     color: #C7C7C7;
     font-size: 11px;
     margin-left: 15px;
-    padding-top: 50px;    
+    padding-top: 30px;    
 }
 
 
