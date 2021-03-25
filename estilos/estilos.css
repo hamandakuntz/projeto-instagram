@@ -272,7 +272,7 @@ ion-icon:hover{
     color: #262626;  
 }
 
-.sidebar .header em {
+.sidebar .header span {
     font-size: 14px;    
     font-weight: 300;
     margin-left: -92px;
@@ -294,7 +294,7 @@ ion-icon:hover{
     font-weight: 500;
 }
 
-.sidebar .sugestoes em{
+.sidebar .sugestoes span{
     color: black;
     font-size: 12px;
     font-weight: 600;
@@ -304,16 +304,19 @@ ion-icon:hover{
 .sidebar .sugestoes-lista {
     background: #FAFAFA;
     display: flex;
-    align-items: center;    
+    align-items: center;
+    justify-items: center;    
     padding-top: 10px;
 }
 
 
 .sidebar .sugestoes-lista .seguevc {
-    color: black;
     font-size: 12px;
     font-weight: 600;
-    color: #262626;  
+    color: #262626;       
+    
+    height: 50px;
+    
     
 }
 
