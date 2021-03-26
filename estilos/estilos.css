@@ -57,7 +57,9 @@ img {
     border: 1px solid #DBDBDB;
     box-sizing: border-box;
     border-radius: 3px;  
-    font-family: 'Roboto';     
+    font-family: 'Roboto'; 
+    box-shadow: 0 0 0 0;
+    outline: 0;    
 }
 
 .iconesdireita {
@@ -213,7 +215,7 @@ ion-icon:hover{
     display:flex;
     align-items: center;
     font-size: 14px;
-    margin-bottom: 60px; /*vai ter que entrar embaixo da caixa de comentário*/
+    
 }
 
 .conteudo .posts .post em {
@@ -231,8 +233,92 @@ ion-icon:hover{
     width: 100%;    
 }
 
+.conteudo .posts .post .caixa-comentarios {
+    background: yellow;
+    
+    
+    
+} 
+
+.conteudo .posts .post .caixa-comentarios .comentario {
+    margin-bottom: px;
+    display:flex;
+    
+}
+
+.conteudo .posts .post .caixa-comentarios .comentario span {
+    margin-left: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top:10px; 
+    
+    
+} 
+
+.conteudo .posts .post .caixa-comentarios .comentario div {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 300; 
+    padding-top: 10px;       
+} 
+
+.conteudo .posts .post .caixa-comentarios .comentario .like {
+    font-size: 5px;
+    height: 5px;
+    width: 5px;
+    padding-left:250px;  
+                   
+} 
 
 
+
+
+
+
+.conteudo .posts .post .novo-comentario {
+    background:;
+    display: flex;
+    border-top: 1px solid #DBDBDB;
+}
+.conteudo .posts .post .novo-comentario div {
+    margin-left:5px;
+    height: 5px;
+    margin-top: 10px;
+    
+}
+
+.conteudo .posts .post .novo-comentario .adc-comentario {
+    font-family: 'Roboto'; 
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border:none;
+    font-weight: 400;
+    font-size: 14px;
+    width: 60%;
+    box-shadow: 0 0 0 0;
+    outline: 0;    
+}
+
+.conteudo .posts .post .novo-comentario .publicar {
+    width: 30%;
+    color: #B2DFFC;
+    border: none;
+    background: white;
+    font-size: 14px;
+    padding-left:70px;
+    transition: color 300ms;
+    font-family: 'Roboto';    
+}
+
+.publicar:hover{
+    background: blue;
+}
+
+
+.barra-bottom {
+    display: none;
+}
 
 
 
@@ -449,6 +535,36 @@ ion-icon:hover{
             .icones {
                 margin-left: 10px;
             }
+
+            .conteudo .caixa-stories {
+                max-width: 100%;
+                margin-top: 50px;          
+            }
+
+            .conteudo .caixa-stories .setinha {
+                display: none;
+            }
+
+            .conteudo .posts {
+                margin-top:-82px;
+            }
+
+            .barra-bottom {
+                position:fixed;
+                bottom: 0;
+                left: 0;                
+                display: block;
+                width: 100%;
+                height: 54px;
+                background-color: #FFFFFF;
+                border: 1px solid #DBDBDB;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-left:10px;                             
+                margin-top:200px;
+            }
+            
 
             
 
