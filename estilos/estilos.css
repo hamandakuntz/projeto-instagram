@@ -136,10 +136,12 @@ img {
 .conteudo .posts {
     margin-top: 24px;
     width: 614px;
-    background:violet;
+    background:white;
     height: auto;       
     box-sizing: border-box;
     border-radius: 3px;
+    padding-bottom: 10px;
+    
 }
 
 .conteudo .posts .post {     
@@ -219,7 +221,7 @@ ion-icon:hover {
     font-size: 14px;    
 }
 
-.conteudo .posts .post: last-child {
+.conteudo .posts .post:last-child {
     margin-bottom: 350px;
 }
 
@@ -433,7 +435,9 @@ p:hover{
     font-size: 12px;   
 }
 
-
+.sidebar .sugestoes-lista .seguir:hover {
+    cursor: pointer;
+}
 
 .sidebar .sugestoes-lista img {
     width: 32px;
