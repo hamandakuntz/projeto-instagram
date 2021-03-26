@@ -101,7 +101,7 @@ img {
     width: 66px;
     height: 66px; 
     border-radius: 33px;   
-    background: url(imagens/stories_background.jpg);
+    background: url(../imagens/stories_background.jpg);
     background-size: cover;
     display:flex;
     flex-direction: column;    
@@ -140,8 +140,7 @@ img {
     height: auto;       
     box-sizing: border-box;
     border-radius: 3px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;    
 }
 
 .conteudo .posts .post {     
@@ -168,8 +167,7 @@ img {
 
 .conteudo .posts .post .topo-post ion-icon {
     margin-top: 20px;
-    font-size: 14px; 
-        
+    font-size: 14px;         
 }
 
 .conteudo .posts .post .topo-post img {
@@ -199,7 +197,6 @@ ion-icon:hover {
     cursor: pointer;   
 }
 
-
 .conteudo .posts .post ion-icon:nth-child(6) {
    float:right;
    margin-right:10px;   
@@ -209,7 +206,7 @@ ion-icon:hover {
     width:20px;
     height: 20px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 8px;    
 }
 
 .conteudo .posts .post .base {
@@ -240,6 +237,8 @@ ion-icon:hover {
     width: 100%;    
 }
 
+/** COMENTÁRIOS POSTS **/
+
 .conteudo .posts .post .caixa-comentarios {
     background: white;     
 } 
@@ -262,13 +261,15 @@ ion-icon:hover {
     padding-top: 10px;       
 } 
 
-
-
 .conteudo .posts .post .caixa-comentarios .comentario ion-icon {
     margin-left: auto;
     padding-right: 5px; 
     font-size: 17px;                  
 } 
+
+.conteudo .posts .post .caixa-comentarios .comentario:last-child {
+    margin-bottom: 15px;
+}
 
 .conteudo .posts .post .novo-comentario {    
     display: flex;
