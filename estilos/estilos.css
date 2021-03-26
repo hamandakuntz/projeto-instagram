@@ -101,7 +101,7 @@ img {
     width: 66px;
     height: 66px; 
     border-radius: 33px;   
-    background: url(/imagens/stories_background.jpg);
+    background: url(imagens/stories_background.jpg);
     background-size: cover;
     display:flex;
     flex-direction: column;    
